@@ -13,7 +13,7 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  font-family: georgia;
   background-color: #f9fbfd;
 }
 
@@ -74,6 +74,7 @@ header {
 
 .btn {
   border: none;
+  font-family: georgia;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
@@ -116,6 +117,57 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+#inputBox {
+    background-color: #1b1b1bc0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    visibility: hidden;
+}
+
+#inputBox h2 {
+    font-family: georgia;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px 1rem solid #161B22;
+    margin: 0;
+}
+
+#inputBox h6 {
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+    color: orangered;
+    visibility: hidden;
+}
+
+#inputBox div {
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-family: georgia;
+    padding: 50px;
+    text-align: left;
+    line-height: 200%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#inputBox label {
+    font-family: georgia;
+    font-size: 17px;
+}
+
+#length-box {
+    width: 100%
 }
 
 @media (max-width: 690px) {
