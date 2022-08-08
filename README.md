@@ -6,5 +6,5 @@ Takes value selections from pop-up menu then generates a password from a given c
 ![generator](./images/output%20area.PNG)
 ## Kyle's Respository
 [Repository](https://github.com/kylelarsenlarsen/Password-Generator)
-## Password Generator Live Website
-[Website](https://kylelarsenlarsen.github.io/Password-Generator/)
+## Password Generator Live Website (NOT WORKING)
+[Website](https://kylelarsenlarsen.github.io/Password-Generator/) 
