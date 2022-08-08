@@ -99,6 +99,7 @@ button[disabled] {
 }
 
 #password {
+  font-family: georgia;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -156,7 +157,7 @@ button[disabled] {
     font-family: georgia;
     padding: 50px;
     text-align: left;
-    line-height: 200%;
+    line-height: 225%;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
 }

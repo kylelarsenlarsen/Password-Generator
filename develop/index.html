@@ -7,6 +7,7 @@
     <title>Password Generator</title>
     <link rel='stylesheet' href='style.css' />
   </head>
+
   <body>
     <div class='wrapper'>
       <header>
@@ -17,7 +18,7 @@
           <h2>Generate a Password</h2>
         </div>
         <div class='card-body'>
-          <textarea
+          <textarea 
             readonly
             id='password'
             placeholder='Your Secure Password'
@@ -30,28 +31,29 @@
       </div>
     </div>
 
-    <!-- add a comment here -->
+    <!--Display selection menu.-->
     <section id='inputBox'>
         <div> <h2>Pick elements to include:</h2>
             <h6 id='errorPrompt'>Your password must be 8 to 128 characters long.</h6>
             <input type='text' id='length-box' placeholder='Enter the length of your password. (Between 8-128)'><br>
-
+            
             <input type='checkbox' id='lowercase'>
             <label for='lower'>Include lowercase letters.</label><br>
 
             <input type='checkbox' id='uppercase'>
             <label for='uppercase'>Include uppercase letters.</label><br>
 
-            <input type='checkbox' id='special-characters'>
-            <label for='special-characters'>Include special characters.</label><br>
+            <input type='checkbox' id='specials'>
+            <label for='specials'>Include special characters.</label><br>
 
-            <input type='checkbox' id='number-selector'>
-            <label for='number-selector'>Include numbers.</label><br>
+            <input type='checkbox' id='numbers'>
+            <label for='numbers'>Include numbers.</label><br>
 
             <input type='submit' value='Submit' id='begin'>
         </div>
     </section>
-
+    <!--Stop of menu.-->
     <script src='script.js'></script>
   </body>
+  <!--Stop of body.-->
 </html>
